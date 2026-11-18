@@ -1,0 +1,19 @@
+# Local project configuration (contains machine-specific paths)
+Config/ProjectConfig.psd1
+
+# Backups and logs
+Backups/
+*_AutomationBackups/
+*.log
+*.tmp
+
+# Editor / IDE
+.vs/
+.vscode/
+.idea/
+
+# Unreal-generated folders (if this repository is ever placed inside a project)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
